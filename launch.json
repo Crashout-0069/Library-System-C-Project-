@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run Library Program",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/a.exe",  // <--- if your output exe is called a.exe
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}/C++ Individual Assignment Submission",
+            "environment": [],
+            "externalConsole": true,
+            "MIMode": "gdb",
+            "miDebuggerPath": "gdb"
+        }
+    ]
+}
